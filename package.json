@@ -7,17 +7,19 @@
     "start": "node ./bin/server/server.js"
   },
   "dependencies": {
-    "express": "~4.9.5"
+    "express": "~4.9.5",
+    "q": "~1.0.1"
   },
   "devDependencies": {
+    "aws-sdk": "~2.0.18",
     "grunt-contrib-clean": "0.6.0",
     "grunt-contrib-coffee": "0.11.1",
     "grunt-contrib-copy": "0.6.0",
     "grunt-contrib-less": "0.11.4",
+    "grunt-jasmine-node": "~0.2.1",
     "grunt-mkdir": "~0.1.2",
     "grunt-mocha": "~0.4.11",
     "grunt-mocha-test": "0.12.0",
-    "mocha": "~1.21.4",
-    "aws-sdk": "~2.0.18"
+    "mocha": "~1.21.4"
   }
 }
